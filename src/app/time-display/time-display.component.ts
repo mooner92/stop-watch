@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./time-display.component.scss']
 })
 export class TimeDisplayComponent {
-  test = '시간 값';
+
 }
