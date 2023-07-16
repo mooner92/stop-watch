@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./buttons.component.scss']
 })
 export class ButtonsComponent {
-  count =0;
-  start(){
-    this.count++;
-  }
-  test($event:MouseEvent){
-    console.log('$event');
-  }
+
 }

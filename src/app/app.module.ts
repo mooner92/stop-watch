@@ -13,10 +13,10 @@ import { ButtonsComponent } from './section/buttons/buttons.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
     SectionComponent,
     TimeDisplayComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

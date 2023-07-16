@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-time-display',
   templateUrl: './time-display.component.html',
   styleUrls: ['./time-display.component.scss']
 })
-export class TimeDisplayComponent {
-  test = '시간 값';
+export class TimeDisplayComponent implements OnInit{
+  test = 1;
+  constructor(){
+    setInterval(()=>{
+      this.test++;
+    },1000)
+  }
+  ngOnInit(){
+
+  }
 }
